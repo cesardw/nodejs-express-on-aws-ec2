@@ -6,7 +6,6 @@ app.get('/', (req, res) => {
   res.send('<h1>DevOps en Proceso</h1> <h4>Prueba CI/CD desde Github</h4> <p>Version 1.0</p>');
 })
 
-
 app.get('/products', (req, res) => {
   res.send([
     {
